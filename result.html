@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Baseball Team | 公式サイト</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand font-title" href="index.html">⚾ TEAM NAME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">トップ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">チーム紹介</a></li>
+                    <li class="nav-item"><a class="nav-link" href="result.html">試合結果</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recruit.html">メンバー募集</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary text-white ms-2" href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-5 container">
+    <h2 class="mb-4">試合結果</h2>
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-dark text-white d-flex justify-content-between">
+            <span>2026.02.08 練習試合</span>
+            <span>vs ライバルズ</span>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered text-center align-middle">
+                    <thead class="table-light">
+                        <tr><th>チーム</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>R</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>ライバルズ</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td class="fw-bold">3</td></tr>
+                        <tr class="table-warning fw-bold"><td>自チーム</td><td>2</td><td>0</td><td>1</td><td>3</td><td>0</td><td>0</td><td>x</td><td class="fs-4">6</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-2">【戦評】<br>初回に4番田中のツーランホームランで先制。投げてはエース佐藤が完投勝利。</p>
+        </div>
+    </div>
+</section>
+
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 Sample Baseball Team. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
